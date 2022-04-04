@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return "Welcome to my website"
+    return "<h1>Welcome</h1>"
 
 @app.route("/contact")
 def Contact_Page():
